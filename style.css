@@ -25,7 +25,6 @@ header .box {
   background-color: black;
 }
 
-
 nav {
   max-width: 80vw;
   display: flex;
@@ -44,41 +43,36 @@ nav img {
   z-index: 10;
 }
 
-.language-select{
+.language-select {
   height: 33px;
-  width:125px;
-  top:3px;
+  width: 125px;
+  top: 3px;
   padding: 2px 18px 9px 3px;
-  position:relative;
+  position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
   background-color: rgb(15 15 16);
   border-radius: 4px;
   border: 1px solid grey;
-  padding:5px 29px 5px 10px;
- 
-
+  padding: 5px 29px 5px 10px;
 }
-.language-select img{
-  height:17px;
+.language-select img {
+  height: 17px;
   width: 17px;
   background-color: rgb(15 15 16);
- 
 }
-.language-select select option{
-  background-color:rgb(15 15 16);
-  color:white;
- 
-  
-}
-select{
-  background-color:rgb(15 15 16);
+.language-select select option {
+  background-color: rgb(15 15 16);
   color: white;
-  font-weight:550;
-  font-size:15px;
+}
+select {
+  background-color: rgb(15 15 16);
+  color: white;
+  font-weight: 550;
+  font-size: 15px;
   line-height: 1.25;
-  border:none;
+  border: none;
 }
 nav button {
   position: relative;
@@ -177,44 +171,23 @@ nav button {
   border-radius: 4px;
   border-color: rgba(0, 0, 0, 0);
 }
-.curved-section{
-  position: absolute;         
-  bottom: -136px;               
-  left: 50%;
+.curved-section {
+  position: relative;
+  top: 10px;
   transform: translateX(-50%);
-  width: 90%;
-  height: 140px;               
-  box-sizing: border-box;
-  margin:20px 10px 29px 40px;
-  background: black;
-  border-top-left-radius: 100% 100%;
-  border-top-right-radius: 100% 100%;
-  border-bottom: none;
-
-  z-index: 5;
-  overflow: hidden;
-}
-.curved-section::before {
-  content: "";
-  position: absolute;
-  top: 28px;
-  left: 50%;
-  transform: translateX(-50%);
-
-  width: 90%;
-  height: 100px;             
-
+  width: 198vw;
+  height: 99px;
   border-top: 3.5px solid transparent;
   border-image: linear-gradient(
-    to right,
-    rgba(33, 13, 22, 1),
-    rgba(184, 40, 105, 1),
-    rgba(229, 9, 20, 1),
-    rgba(184, 40, 105, 1),
-    rgba(33, 13, 22, 1)
-  ) 1;
-
-  border-radius: 100% 100% 0 0;   
+      to right,
+      rgba(33, 13, 22, 1),
+      rgba(184, 40, 105, 1),
+      rgba(229, 9, 20, 1),
+      rgba(184, 40, 105, 1),
+      rgba(33, 13, 22, 1)
+    )
+    1;
+  border-radius: 100% 100% 0 0;
   z-index: 3;
 }
 
@@ -229,7 +202,7 @@ nav button {
   font-weight: 600;
   width: 100%;
   color: white;
-  margin: 46px 100px 9px -47px;
+  margin: 46px 30px 9px -47px;
   padding: 10px 10px;
 }
 .slider {
@@ -278,6 +251,14 @@ nav button {
   color: black;
   text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
 }
+.heading {
+  font-size: 25px;
+  font-weight: 700;
+  width: 100%;
+  color: white;
+  margin: 46px 90px 9px -47px;
+  padding: 10px 10px;
+}
 .container2 {
   height: 400px;
   width: 90vw;
@@ -316,11 +297,19 @@ nav button {
   left: 190px;
   top: 30px;
 }
+.heading3 {
+  font-size: 25px;
+  font-weight: 700;
+  width: 100%;
+  color: white;
+  margin: 46px 90px 9px -47px;
+  padding: 10px 10px;
+}
 .container3 {
   height: auto;
   width: 76vw;
   margin-left: 12vw;
-  margin-right: 62vw;
+  margin-right: 5vw;
 }
 .questionbox {
   background-color: #2d2d2d;
@@ -336,6 +325,11 @@ nav button {
   height: 85px;
   font-weight: 150;
   font-size: 24px;
+}
+.addImg {
+  position: relative;
+  left: 10px;
+  top: 10px;
 }
 .questionbox:hover {
   background-color: rgba(70, 70, 70, 1);
@@ -417,196 +411,206 @@ footer {
   padding-top: 20px;
   color: rgba(255, 255, 255, 0.68);
 }
-p{
+p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
-   margin-top:40px;
+  margin-top: 40px;
 }
-p a{
-  color: rgb(68, 142, 244)
+p a {
+  color: rgb(68, 142, 244);
 }
-#last{
- 
+#last {
   color: rgba(255, 255, 255, 0.5);
-  font-size:13px;
+  font-size: 13px;
 }
-footer button{
+footer button {
   background-color: rgba(20, 20, 20, 0.8);
   padding: 6px 36px 6px 34px;
   border-radius: 5px;
   line-height: 1.25;
-  color:white;
-  border:1px solid white ;
+  color: white;
+  border: 1px solid white;
   font-size: 16px;
   font-weight: 550;
   border: 0.2px solid white;
 }
-#lastBtn{
-  margin-top:30px;
-  margin-left:6px;
-  
+#lastBtn {
+  margin-top: 30px;
+  margin-left: 6px;
 }
-@media (max-width: 1024px) {
 
-  nav {
-    margin: 0 40px;
-  }
-
-  .hero {
-    max-width: 70vw;
-  }
-
-  .hero > :nth-child(1),
-  .hero > :nth-child(2) {
-    font-size: 38px;
-    line-height: 50px;
-  }
-
-  .slider {
-    gap: 15px;
-  }
-
-  .card {
-    width: 180px;
-    height: 210px;
-  }
-
-  .container2 .section {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .card2 {
-    width: 45%;
-  }
-}
 @media (max-width: 768px) {
-
-  header {
-    height: auto;
-  }
-
   nav {
     margin: 0 20px;
   }
 
   nav img {
-    width: 110px;
+    width: 94px;
+  }
+  nav button{
+        position: relative;
+        right: -45px;
+        top: -4px;
+  }
+
+  header .box {
+    height: 61vh;
+    width: 101%;
+    opacity:0.88;
+  }
+
+  .language-select {
+    width: 116px;
+    top: 0px;
+  }
+
+  header {
+    height: 61vh;
   }
 
   .hero {
-    max-width: 90vw;
-    padding: 40px 0;
+    max-width: 89vw;
+    padding-top: 10px;
   }
 
   .hero > :nth-child(1),
   .hero > :nth-child(2) {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 28px;
+    width: 92vw;
+    line-height: 68px;
   }
 
   .hero > :nth-child(3),
   .hero > :nth-child(4) {
-    font-size: 16px;
+        font-size: 19px;
+        line-height: 20px;
   }
 
   .search {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    gap: 12px;
+    width: 50%;
   }
 
-  .search input {
-    width: 100%;
-    margin-bottom: 10px;
+  .search input,
+  .content input {
+    width: 86vw;
+    position: relative;
+    left: -83px;
   }
 
-  .search button {
-    width: 100%;
-    font-size: 18px;
+  .search button,
+  .content button {
+            width: 169px;
+        font-size: 20px;
+        /* gap: 10px; */
+        font-weight: 200;
+        position: relative;
+        left: 0px;
+        margin-top: 7px;
+  }
+
+  .curved-section {
+    width: 200vw;
+    height: 239px;
+    top: 14px;
   }
 
   .trending {
-    font-size: 20px;
-    margin-left: 0;
+    padding-left: 54px;
+    font-size: 21px;
+    font-weight: 400;
   }
-
+  .container {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .heading {
+    padding: 0px;
+    margin-left: 5px;
+    font-size: 20px;
+  }
+  .container2 {
+    height: 118vh;
+    width: 93vw;
+    margin: -20px -7.3vw;
+    padding: 0px 52px;
+  }
   .slider {
     margin-left: 0;
+    gap: 4px;
   }
 
   .card {
-    width: 150px;
-    height: 200px;
+    width: 160px;
+    height: 190px;
   }
 
   .number {
-    font-size: 60px;
+    font-size: 65px;
+  }
+
+  .section {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    gap: 9px;
   }
 
   .card2 {
-    width: 100%;
+    width: 134%;
+    height: 26vh;
   }
+  .smallImg {
+    position: relative;
+    left: 260px;
+    top: 0px;
+  }
+  .heading3 {
+    font-size: 21px;
+    font-weight: 500;
 
+    margin: 0px -21px;
+    padding: 11px 1px;
+  }
   .questionbox {
-    width: 100%;
-    margin: 10px 0;
+    width: 115%;
+    margin-left: -22px;
+    height: 70px;
   }
 
   .faq {
     font-size: 18px;
+    height: auto;
+    padding-top: 23px;
+  }
+  .addImg {
+    height: 29px;
+    width: 29px;
   }
 
-  footer {
-    width: 100%;
-    margin-left: 0;
+  .content {
+    padding-left: 0px;
+    /* margin-top: 0px; */
+    margin: 0px;
   }
+  .content p{
+        margin-top: 0px;
+        margin-right: -161px;
+        font-size: 17px;
+  }
+  footer{
+    margin-top:100px;
 
+  }
   .foot-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+    grid-template-columns: repeat(1, 1fr);
 }
-/* ---------- NORMAL DESKTOP CSS (already written) ---------- */
-
-/* last existing rule */
-#lastBtn{
-  margin-top:30px;
-  margin-left:6px;
-}
-
-/* ---------- MEDIA QUERIES START HERE ---------- */
-
-/* TABLET */
-@media (max-width: 1024px) {
-  nav {
-    margin: 0 40px;
+  .foot{
+    gap:0px;
   }
-
-  .hero {
-    max-width: 70vw;
-  }
-}
-
-/* MOBILE */
-@media (max-width: 768px) {
-  .hero {
-    max-width: 90vw;
-  }
-
-  .search {
-    flex-direction: column;
-  }
-
-  .search input,
-  .search button {
-    width: 100%;
-  }
-}
-
-/* SMALL MOBILE */
-@media (max-width: 480px) {
-  .hero > :nth-child(1),
-  .hero > :nth-child(2) {
-    font-size: 24px;
+  #last{
+        padding-bottom: 75px;
   }
 }
