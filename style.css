@@ -480,12 +480,13 @@ footer button {
     line-height: 68px;
   }
 
-  .hero > :nth-child(3),
-  .hero > :nth-child(4) {
+  .hero > :nth-child(3) {
         font-size: 19px;
         line-height: 20px;
   }
-
+  .hero > :nth-child(4){
+    display:none;
+  }
   .search {
     display: flex;
     flex-direction: column;
@@ -495,9 +496,7 @@ footer button {
 
   .search input,
   .content input {
-    width: 86vw;
-    position: relative;
-    left: -83px;
+    display: none;
   }
 
   .search button,
